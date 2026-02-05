@@ -1,0 +1,28 @@
+{
+  "name": "lityield-protocol",
+  "version": "1.0.0",
+  "description": "LitVM-native yield farming protocol with ArbSys integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [
+    "litvm",
+    "litecoin",
+    "yield",
+    "defi",
+    "solidity"
+  ],
+  "author": "LitYield Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1"
+  }
+}
